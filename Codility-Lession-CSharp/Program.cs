@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility_Lession_CSharp
+namespace Codility_Lessons_CSharp
 {
     class Program
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codility-Lession-CSharp", "Codility-Lession-CSharp\Codility-Lession-CSharp.csproj", "{AB5D2433-33FD-472D-9783-2BB169FBC634}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codility-Lessons-CSharp", "Codility-Lession-CSharp\Codility-Lessons-CSharp.csproj", "{AB5D2433-33FD-472D-9783-2BB169FBC634}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTests", "XUnitTests\XUnitTests.csproj", "{1182749A-32E6-4962-B3D2-313E595B337E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTests", "XUnitTests\XUnitTests.csproj", "{1182749A-32E6-4962-B3D2-313E595B337E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
