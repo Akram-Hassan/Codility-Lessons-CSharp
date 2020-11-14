@@ -6,10 +6,11 @@ namespace XUnitTests
 {
     public class Lesson1Tests
     {
-        [Fact]
-        public void Test1()
+        [Theory]
+        [InlineData(0, 4)]
+        public void MainTest(int result, int N )
         {
-            Assert.Equal(0 ,Lesson1.Solution(4));
+            Assert.Equal(result ,Lesson1.Solution(N));
         }
     }
 }
