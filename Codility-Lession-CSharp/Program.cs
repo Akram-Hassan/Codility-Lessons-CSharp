@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Codility_Lession_CSharp;
+using System;
 
 namespace Codility_Lessons_CSharp
 {
@@ -6,7 +7,7 @@ namespace Codility_Lessons_CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Lesson1.Solution(3));
         }
     }
 }
