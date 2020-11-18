@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Codility_Lession_CSharp
@@ -27,6 +28,24 @@ namespace Codility_Lession_CSharp
                     throw new ArgumentException("Invalid index value " + index + ", Array length is " + length);
                 
                 return (index + K) % length;
+            }
+        }
+
+        public class OddOcurrances
+        {
+            public static int solution(int[] A)
+            {
+                HashSet<int> set = new HashSet<int>();
+
+                foreach (var item in A)
+                {
+                    if (!set.Contains(item))
+                        set.Add(item);
+                    else
+                        set.Remove(item);
+                }
+
+                return set.First();
             }
         }
     }

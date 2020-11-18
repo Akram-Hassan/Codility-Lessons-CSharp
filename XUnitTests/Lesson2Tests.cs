@@ -43,5 +43,18 @@ namespace XUnitTests
                 Assert.Equal(expected, CyclicRotation.solution(A, k));
             }
         }
+
+        public class OddOccurancesTests
+        {
+            [Theory]
+            [InlineData(5, new int[] { 1,5,1 })]
+            [InlineData(3, new int[] { 1, 3, 1 })]
+            [InlineData(4, new int[] { 10, 5, 5 , 10 , 4 })]
+
+            public void MainTest(int expected, int[] A)
+            {
+                Assert.Equal(expected, OddOcurrances.solution(A));
+            }
+        }
     }
 }
