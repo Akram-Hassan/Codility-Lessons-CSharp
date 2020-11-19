@@ -26,7 +26,7 @@ namespace Codility_Lession_CSharp
                         return i;
                 }
 
-                return 0;
+                return A.Length + 1;
             }
         }
     }
