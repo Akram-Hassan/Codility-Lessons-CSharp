@@ -29,5 +29,10 @@ namespace Codility_Lession_CSharp
                 return A.Length + 1;
             }
         }
+
+        public class TapeEquilibrium
+        {
+
+        }
     }
 }

@@ -33,5 +33,10 @@ namespace XUnitTests
                 Assert.Equal(expected, PermMissingElem.solution(A));
             }
         }
+
+        public class TapeEquilibriumTests
+        {
+
+        }
     }
 }
