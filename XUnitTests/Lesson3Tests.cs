@@ -17,5 +17,10 @@ namespace XUnitTests
                 Assert.Equal(expected, FrogJmp.solution(X, Y, D));
             }
         }
+
+        public class PermMissingElemTests
+        {
+
+        }
     }
 }

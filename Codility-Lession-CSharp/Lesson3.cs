@@ -13,5 +13,10 @@ namespace Codility_Lession_CSharp
                 return (int) Math.Ceiling((Y - X) / (double) D);
             }
         }
+
+        public class PermMissingElem
+        {
+
+        }
     }
 }
