@@ -31,6 +31,25 @@ namespace Codility_Lession_CSharp
 
                 return -1;
             }
+            public static int solution2(int X, int[] A)
+            {
+                int count = 0;
+                int[] counter = new int[X+1];
+
+                for (int i = 0; i < A.Length; i++)
+                {
+                    int item = A[i];
+                    if (item <= X && counter[item] == 0)
+                    {
+                        counter[item]++;
+                        count++;
+                        if (count == X)
+                            return i;
+                    }
+                }
+
+                return -1;
+            }
         }
     }
 }
