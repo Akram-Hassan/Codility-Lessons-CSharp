@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
+using Xunit;
 
-namespace Codility_Lession_CSharp
+namespace Codility_Lessons_CSharp
 {
     public class Lesson1
     {
@@ -27,12 +26,25 @@ namespace Codility_Lession_CSharp
 
                 if (counting && r == 0)
                     count++;
-                
+
                 N = q;
 
             } while (N > 0);
 
             return max;
+        }
+
+
+        [Theory]
+        [InlineData(0, 4)]
+        [InlineData(1, 5)]
+        [InlineData(0, 8)]
+        [InlineData(2, 9)]
+        [InlineData(0, 32)]
+        [InlineData(5, 1041)]
+        public void MainTest(int result, int N )
+        {
+            Assert.Equal(result ,Lesson1.Solution(N));
         }
     }
 }

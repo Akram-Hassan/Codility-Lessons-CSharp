@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Codility_Lession_CSharp.Learning
+namespace Codility_Lessons_CSharp.Learning
 {
     public class CountingElements
     {
@@ -20,6 +20,7 @@ namespace Codility_Lession_CSharp.Learning
 
             return result;
         }
+
 
     }
 }
