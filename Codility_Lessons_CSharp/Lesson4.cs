@@ -52,7 +52,6 @@ namespace Codility_Lessons_CSharp
                 return -1;
             }
         }
-
         public class FrogRiverOneTests
         {
             #region Solution 1
